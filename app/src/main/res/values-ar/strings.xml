@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ابلكشن</string>
+    <string name="dep">محاسبه</string>
+    <string name="Dialog">جدول تنبيه</string>
+    <string name="messageDialog">هل تود مسح هذا النص؟</string>
+    <string name="YesAnswer">نعم</string>
+    <string name="NoMessage">لا</string>
+</resources>

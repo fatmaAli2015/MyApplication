@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fatmaali.myapplication.page7">
+
+
+    <Button
+        android:id="@+id/buAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:onClick="AddNotif"
+        android:text="Add notification" />
+
+
+
+    <Button
+        android:id="@+id/buremove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buAdd"
+        android:layout_alignStart="@+id/buAdd"
+        android:layout_below="@+id/buAdd"
+        android:layout_marginTop="20dp"
+        android:onClick="RemoveNotif"
+        android:text="Remove" />
+</RelativeLayout>

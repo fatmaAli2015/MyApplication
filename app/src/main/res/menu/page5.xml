@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".page5">
+    <item
+        android:id="@+id/goback"
+        android:icon="@drawable/download"
+        android:title="g"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/left"
+        android:icon="@drawable/download1"
+        android:title="left"
+        app:showAsAction="always" />
+
+
+
+    <item android:title="select"
+        android:id="@+id/select"
+        android:checkable="true"/>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Save"
+            android:id="@+id/save"/>
+        <item android:title="Save as"
+            android:id="@+id/save_as"/>
+    </group>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+</menu>
